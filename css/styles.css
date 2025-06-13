@@ -559,6 +559,12 @@ body {
     margin: 0 30px;
 }
 
+@media (max-width: 480px) {
+    .wallet-pills .nav-item .nav-link {
+    margin: 0 10px;
+}
+}
+
 .wallet-pills .nav-item .nav-link.active {
     color: #a6adbb;
     border-bottom: 1px solid rgb(0 0 0 / 1) !important;
